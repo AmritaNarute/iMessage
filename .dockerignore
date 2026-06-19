@@ -1,7 +1,11 @@
-**/node_modules
-**/dist
-**/.env
-**/.env.*
-.git
-.DS_Store
-npm-debug.log*
+import { env } from "node:process"
+
+node_modules
+dist
+env
+env
+    .git
+    .DS_Store
+npm - debug.log
+
+
