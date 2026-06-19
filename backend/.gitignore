@@ -1,6 +1,6 @@
-
- Logs
-logs
-*.log
+# Logs
+node_modules
+dist
+dist-ssr
+*.local
 .env
-ode_modules
