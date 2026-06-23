@@ -35,7 +35,7 @@ router.post("/", async (req, res) => {
 
             const fullName =
                 [u.first_name, u.last_name].filter(Boolean).join(" ") || u.username ||
-                email?.split("@")[0];
+                email?.split("@")[0]; 
 
             await User.findOneAndUpdate(
                 { clerkId: u.id },
