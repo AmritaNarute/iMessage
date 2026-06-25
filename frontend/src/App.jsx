@@ -6,13 +6,14 @@ import ChatPage from "./pages/ChatPage"
 import AuthPage from "./pages/AuthPage";
 import { useAuth } from "@clerk/react";
 import { Toaster } from "react-hot-toast";
+import PageLoader from './components/PageLoader'
 
 function App() {
 
    const { isSignedIn, isLoaded } = useAuth();
 
   //todo: make this a better component
-  if (!isLoaded) return <p>loading...</p>
+  if (!isLoaded) return <PageLoadder />
 
   return (
     <ThemeProvider>
