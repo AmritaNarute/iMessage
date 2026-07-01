@@ -32,3 +32,5 @@ export function WallpaperProvider({ children }) {
     </WallpaperContext.Provider>
   );
 }
+
+export default WallpaperProvider;
