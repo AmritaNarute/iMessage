@@ -1,7 +1,7 @@
 /**
  * Wraps an Avatar with a bottom-right presence dot (online / offline).
  */
-export function AvatarWithOnlineIndicator({ isOnline, children, dotClassName = "" }) {
+ function AvatarWithOnlineIndicator({ isOnline, children, dotClassName = "" }) {
   return (
     <div className="relative inline-flex shrink-0">
       {children}
@@ -13,3 +13,5 @@ export function AvatarWithOnlineIndicator({ isOnline, children, dotClassName = "
     </div>
   );
 }
+
+export default AvatarWithOnlineIndicator;

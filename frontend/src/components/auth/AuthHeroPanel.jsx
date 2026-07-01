@@ -53,4 +53,4 @@ const heroImageClassName = [
   );
 }
 
-export default AuthHeroPanel
+export default AuthHeroPanel;
